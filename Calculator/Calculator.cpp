@@ -120,7 +120,6 @@ int main(){
 
     }else{
         cout<<"Syntax Error\n";
-        break;
     }
     cout<<"\n"<<"1:Again Calculate\n2:Close\nEnter your option: ";
     cin>>again;
@@ -131,7 +130,7 @@ int main(){
 
 /// If you want to Quit than press 2 ///
 
-    }else if (again == "2"){
+    }else{
         cout<<"Thank You for using my Calculator.I hope you like it";
         break;
     }
